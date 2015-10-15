@@ -1,1 +1,106 @@
-/* css */
+body {
+    margin:0px;
+    padding:0px;
+    background-color:black;
+    background-image:url("http://images.nationalgeographic.com/wpf/media-live/photos/000/702/overrides/space-257-eso-nebula_70254_600x450.jpg");/**/
+}
+#header {
+    background-color:gray;/**/
+    padding:0px;
+    color:white;
+}
+ h1 {
+    padding:20px 40px;
+    margin:0px;
+    font-family:Verdanaf;
+    Font-size:60pt;
+}
+/*NAVagation*/
+#nav,#nav a {
+    background-color:#ccc;  /*This sets the background color to gray*/
+    padding:10px;
+}
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration:none;/**/
+    transition:background-color 2s, color 2s;/**/
+}
+#nav a:hover {
+    background-color:#aaaaff;/**/
+    color:white;
+    transition:color 2s;/**/
+}
+#nav {
+    padding-left:30px;
+}
+/*end NAVagation*/
+#content {
+    padding:20px 40px;
+    background-color:#eee;/**/
+    margin:0px;
+}
+h2,h3 {
+    font-family:arial;
+}
+#footer {
+    padding:20px 40px;
+    background-color:black;/**/
+    margin:0px;
+    color:white;
+}
+.spotlight {
+    background-color:pink;
+    padding:20px;
+}
+#page {
+margin:40px 80px;
+}
+#footer a {
+    text-decoration:none;
+}
+/*
+#header {
+  width:400px;
+  background-color:white;
+  color:white;
+}
+#header:hover {
+
+    width:200px;
+    transition:width 2s, background-color 2s, color 2s;
+      Background-color:gray;
+
+}
+#content {
+    background-color:white;
+    color:white;
+}
+#footer {
+    background-color:white;
+    color:white;
+}
+#content:hover {
+  transition: background-color 2s, color 2s;
+    background-color:lime;
+}
+#footer:hover {
+   transition: background-color 2s, color 2s;
+    background-color:lime;   
+}
+#header h2 {
+
+  background-color:white ;
+font-size:10px;
+}
+
+#header h2:hover {
+  background-color:lime;
+   transition:width 2s, background-color 2s, font-size 2s;
+  padding: 9px;
+  font-size:30px;
+
+}
+*/
+
